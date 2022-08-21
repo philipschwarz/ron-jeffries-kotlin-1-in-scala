@@ -2,8 +2,6 @@ package kotlin1
 
 import java.awt.Point
 
-enum WorldThing { case Obstacle, Pit, Seen }
-
 class World:
 
   val knowledge: Knowledge = Knowledge()

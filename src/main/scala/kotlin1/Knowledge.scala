@@ -15,6 +15,3 @@ class Knowledge:
 
   def getItem(at: Point): Option[Any] =
     map.get(at)
-
-class Fact(aThing: Any):
-  val thing = aThing
